@@ -11,5 +11,15 @@ public class Livro {
         this.anoPublicacao = anoPublicacao;
     }
 
-    Livro livro1 = new Livro("Mil beijos de garoto", "Tillie Collie", 2016);
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getAnoPublicacao() {
+        return anoPublicacao;
+    }
 }
